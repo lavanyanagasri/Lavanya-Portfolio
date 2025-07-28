@@ -6,7 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "lint": "eslint .",
+=======
+    "test": "vitest",
+    "dev:server": "node server/server.js",
+    "dev:full": "concurrently \"npm run dev\" \"npm run dev:server\"",
+>>>>>>> 2decc54 (Initial commit)
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +27,10 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.18",
+<<<<<<< HEAD
+=======
+    "concurrently": "^9.2.0",
+>>>>>>> 2decc54 (Initial commit)
     "eslint": "^9.9.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.11",
